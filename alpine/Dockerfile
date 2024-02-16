@@ -45,6 +45,7 @@ RUN apk update \
         --docdir=/tmp/opendmarc/doc \
         --infodir=/tmp/opendmarc/info \
         --mandir=/tmp/opendmarc/man \
+        --with-spf \
  && make \
     \
  # Create OpenDMARC user and group
